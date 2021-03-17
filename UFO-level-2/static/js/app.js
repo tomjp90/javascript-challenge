@@ -60,7 +60,7 @@ var htmlShape = [];
 
 // add dropdown list items
 // DATE
-//loop over each array length
+//loop over each array length and add drop down option
 for (var i = 0; i < uniqueDate.length; i++) {
       //add the option elements to the html array
       htmlDate.push("<option>" + uniqueDate[i] + "</option>")
@@ -191,5 +191,18 @@ function resetTable() {
             var cell = row.append("td");
             cell.text(value);
       });
+
+      //reset dropdown options
+      var dropDownCountry = document.getElementById("country");  
+      dropDownCountry.selectedIndex = 0;  
+      var dropDownState = document.getElementById("state");  
+      dropDownState.selectedIndex = 0;  
+      var dropDownCities = document.getElementById("cities");  
+      dropDownCities.selectedIndex = 0;  
+      var dropDownShape = document.getElementById("shape");  
+      dropDownShape.selectedIndex = 0;  
+      var dropDownDate = document.getElementById("date");  
+      dropDownDate.selectedIndex = 0;  
+      
 });
 }
