@@ -6,13 +6,13 @@ var tableData = data;
 var tbody = d3.select("tbody");
 // find for each data sighting and append rows for each
 data.forEach(function(ufosighting) {
-  var row = tbody.append("tr");
-  // append each value to table cell
-  Object.entries(ufosighting).forEach(function([key, value]) {
-  // append a cell to the row for each value
-    var cell = row.append("td");
-    cell.text(value);
-  });
+      var row = tbody.append("tr");
+      // append each value to table cell
+      Object.entries(ufosighting).forEach(function([key, value]) {
+      // append a cell to the row for each value
+            var cell = row.append("td");
+            cell.text(value);
+      });
 });
 
 //GET UNIQUE VALUES FOR DROPDOWN LISTS---------------------------------
@@ -127,14 +127,25 @@ function filterValues() {
 
       // clear table to append filtered data
       tbody.html(``);
-      // filter results based on input
-      var filteredSightings = tableData.filter(sighting => (sighting.datetime === selDate) &&
-                                                            (sighting.city === selCities) &&
-                                                            (sighting.state === selState) &&
-                                                            (sighting.country === selCountry) &&
-                                                            (sighting.shape === selShape)
-                              );
+      //filter results based on input
+      var filteredSightings = tableData;
 
+      if (selDate != "Select"){
+            filteredSightings = filteredSightings.filter(sighting => (sighting.datetime == selDate));
+      }
+      if (selCities != "Select"){
+            filteredSightings = filteredSightings.filter(sighting => sighting.city == selCities);
+      }
+      if (selState != "Select"){
+            filteredSightings = filteredSightings.filter(sighting => sighting.state == selState);
+      }
+      if (selShape != "Select"){
+            filteredSightings = filteredSightings.filter(sighting => sighting.shape == selShape);
+      }
+      if (selCountry != "Select"){
+            filteredSightings = filteredSightings.filter(sighting => sighting.country == selCountry);
+      }
+     
       // Show nothing found if nothing to display
       if (filteredSightings.length == "0") {
             document.getElementById("warning").innerHTML = msg;
