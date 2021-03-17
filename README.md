@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# JavaScript Homework - JavaScript and DOM Manipulation
-=======
 # JavaScript and DOM Manipulation
 
 ## Link to UFO-level-1 GIT pages site
@@ -10,7 +7,7 @@ https://tomjp90.github.io/javascript-challenge/UFO-level-1/index.html
 https://tomjp90.github.io/javascript-challenge/UFO-level-2/index.html
 
 
->>>>>>> 5594ee312dba753d3abd746d19ea324f2c92b560
+
 
 ## Background
 
