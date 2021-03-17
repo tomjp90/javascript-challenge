@@ -167,7 +167,8 @@ button.on("click", resetTable);
 function resetTable() {
       // prevent the page from refreshing
       d3.event.preventDefault();
-
+      var tbody = d3.select("tbody");
+      tbody.html(``);
       // get a reference to the table body
       var tbody = d3.select("tbody");
       // find for each data sighting and append rows for each
