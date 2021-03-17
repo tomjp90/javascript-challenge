@@ -1,4 +1,12 @@
-# JavaScript Homework - JavaScript and DOM Manipulation
+# JavaScript and DOM Manipulation
+
+## Link to UFO-level-1 website
+https://tomjp90.github.io/javascript-challenge/UFO-level-1/index.html
+
+## Link to UFO-level-2 website
+https://tomjp90.github.io/javascript-challenge/UFO-level-2/index.html
+
+
 
 ## Background
 
