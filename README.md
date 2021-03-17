@@ -1,9 +1,9 @@
 # JavaScript and DOM Manipulation
 
-## Link to UFO-level-1 website
+## Link to UFO-level-1 GIT pages site
 https://tomjp90.github.io/javascript-challenge/UFO-level-1/index.html
 
-## Link to UFO-level-2 website
+## Link to UFO-level-2 GIT pages site
 https://tomjp90.github.io/javascript-challenge/UFO-level-2/index.html
 
 
