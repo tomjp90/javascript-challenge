@@ -2,10 +2,10 @@
 A webpage was created using JavaScript, HTML, CSS and D3 to display a provided data set of UFO sightings in North America. The data can be filtered down using the dropdown options to display specific UFO sightings. GitHub Pages was then used to create a static site from repositry. 
 Links to the site:
 
- # Link to UFO-level-1 site
+ ### Link to UFO-level-1 site
  https://tomjp90.github.io/javascript-challenge/UFO-level-1/index.html
 
- # Link to UFO-level-2 site
+ ### Link to UFO-level-2 site
  https://tomjp90.github.io/javascript-challenge/UFO-level-2/index.html
 
 ### Level 1: Automatic Table and Date Search
