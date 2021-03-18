@@ -16,6 +16,8 @@ https://tomjp90.github.io/javascript-challenge/UFO-level-2/index.html
 
 * Use a date form in your HTML document and write JavaScript code that will listen for events and search through the `date/time` column to find rows that match user input.
 
+images/ufo-1.jpg
+
 ### Level 2: Multiple Search Categories 
 
 * Complete all of Level 1 criteria.
@@ -27,6 +29,8 @@ https://tomjp90.github.io/javascript-challenge/UFO-level-2/index.html
   3. `state`
   4. `country`
   5. `shape`
+
+images/ufo-2.jpg
 
 - - -
 
