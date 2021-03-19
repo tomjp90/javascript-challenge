@@ -13,7 +13,7 @@ Links to the site:
  ### Link to UFO-level-2 site
  https://tomjp90.github.io/javascript-challenge/UFO-level-2/index.html
 
-### Level 1: Automatic Table and Date Search
+## Level 1: Automatic Table and Date Search
 
 * Create a basic HTML web page
 
@@ -25,7 +25,7 @@ Links to the site:
 
 ![Images/ufo-1.JPG](images/ufo-1.JPG)
 
-### Level 2: Multiple Search Categories 
+## Level 2: Multiple Search Categories 
 
 * Complete all of Level 1 criteria.
 
