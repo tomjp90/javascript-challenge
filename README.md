@@ -3,7 +3,7 @@ A webpage was created using JavaScript, HTML, CSS and D3 to display a provided d
 Links to the site:
 
 ### Technologies used
-* JavaScript
+* JavaScript/D3
 * HTML
 * CSS
 
