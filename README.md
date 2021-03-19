@@ -1,5 +1,5 @@
 # JavaScript and DOM Manipulation
-A webpage was created using JavaScript, HTML, CSS and D3 to display a provided data set of UFO sightings in North America. Note: Further data can be appended or removed from data.js without effecting the site. The data can be filtered down using the dropdown options to display specific UFO sightings. GitHub Pages was then used to create a static site from the repositry. 
+A webpage was created using JavaScript, HTML, CSS and D3 to display a provided data set of UFO sightings in North America. Note: Further data can be appended or removed from data.js without effecting the site. The data can be filtered down using the dropdown options which are automatically determined by the data to display specific UFO sightings. GitHub Pages was then used to create a static site from the repositry. 
 Links to the site:
 
 ### Technologies used
